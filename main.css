@@ -1,0 +1,152 @@
+/* main.css */
+
+html, body, div, h1, h2, h3, h4, h5, p, div, ul, ol, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	font-family: "Courier New", Courier, monospace;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 100;
+}
+
+h3 {
+	font-size: 28px;
+	border-bottom: 1px solid #555555;
+}
+
+h3, h4 {
+	margin: 10px;
+}
+
+a {
+	color: #eeeeee;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+	background-color: #999999;
+}
+
+.tagline {
+	background-color: #000000;
+	padding: 20px 0;
+	color: #FFFFFF;
+}
+
+.section {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.screen-container {
+	margin-bottom: 20px;
+	padding: 2%;
+	background: #000000;
+	border: 2px solid #CCCCCC;
+	border-radius: 10px;
+}
+
+.screen-container .screen-img {
+	width: 30%;
+	padding: 2% 5% 2% 2%;
+	margin: 1%;
+	float: left;
+}
+
+.screen-container .screen-img img {
+	max-width: 100%;
+}
+
+.screen-container .screen-text {
+	width: 68%;
+	padding: 1%;
+	float: left;
+	border-left: 1px solid #444444;
+}
+
+.screen-container .screen-text li {
+	color: #cccccc;
+	margin-bottom: 10px;
+}
+
+.skillset {
+	width: 30%;
+	float: left;
+	margin: 1%;
+}
+
+.skills h4, .experiences h4 {
+	text-decoration: underline;
+}
+
+.experiences h4, .experiences li, .education h4, .additional-experience h4, .volunteer h4, .badges h4 {
+	color: #cccccc;
+}
+
+.experiences li {
+	margin: 1% 10px;
+	list-style: disc;
+}
+
+.skills ul{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.skills li {
+	background-color: #000000;
+	color: #cccccc;
+	border: 1px solid #cccccc;
+	padding: 2%;
+	margin: 1% 0;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.footer {
+	background-color: #999999;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.footer p a {
+	color: #000000;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.badges .screen-container .screen-img
+{
+	padding: 0;
+	width: 10%;
+}
